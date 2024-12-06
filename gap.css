@@ -1,0 +1,9 @@
+.g4 {
+  gap: 1rem;
+}
+.space-between {
+  justify-content: space-between;
+}
+.width-60 {
+  width: 60%;
+}

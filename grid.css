@@ -33,3 +33,7 @@
   text-align: center;
   padding: 10px;
 }
+.gridleftright {
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+}

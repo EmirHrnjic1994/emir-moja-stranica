@@ -1,3 +1,5 @@
+@import url("./gap.css");
+@import url("gridizdvajanje.css");
 body {
   font-family: "Host Grotesk", sans-serif;
   font-optical-sizing: auto;
@@ -34,6 +36,7 @@ body {
 a {
   text-decoration: none;
   color: black;
+  padding: 4px;
 }
 
 .navbar {
@@ -125,4 +128,36 @@ ul {
   background-color: #002f34;
   color: white;
   border-radius: 4px;
+}
+.flex-1 {
+  flex: 1 0 auto;
+  background-color: rgba(86, 87, 82, 0.87);
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.futer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(204, 230, 90, 0.164);
+  justify-content: center;
+  text-align: center;
+}
+.futer1 {
+  flex-direction: column;
+
+  text-align: center;
+  gap: 1rem;
+  padding: 24px;
+  background-color: rgba(204, 230, 90, 0.164);
+}
+.futer1 .payment-row a {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 5px;
+  border: 2px solid #111010;
+  margin-bottom: 5px;
+  background-color: rgba(204, 230, 90, 0.164);
 }
