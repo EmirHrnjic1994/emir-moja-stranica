@@ -20,8 +20,7 @@
   grid-area: sidebar-left;
 }
 .content {
-  grid-area: content;
-  justify-content: center;
+  display: none;
 }
 .sidebar-right {
   grid-area: sidebar-right;
@@ -36,4 +35,11 @@
 .gridleftright {
   display: grid;
   grid-template-columns: 1fr 7fr;
+}
+@media screen and (min-width: 768px) {
+  .content {
+    grid-area: content;
+    justify-content: center;
+    display: unset;
+  }
 }
