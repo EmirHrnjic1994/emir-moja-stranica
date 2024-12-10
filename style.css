@@ -1,5 +1,6 @@
 @import url("./gap.css");
 @import url("gridizdvajanje.css");
+@import url("sakoi.css");
 body {
   font-family: "Host Grotesk", sans-serif;
   font-optical-sizing: auto;
@@ -61,17 +62,18 @@ a {
   display: none;
   position: absolute;
   top: 1.5rem;
-  width: 200px;
+  min-width: 700px;
   flex-direction: column;
-  padding: 0;
-  border: 1px solid rgb(191, 187, 187);
+  padding: 15px 5px;
+  border: 1px solid rgb(15, 15, 15);
   border-radius: 4px;
 }
 
 .submenu > li {
-  padding: 6px 12px;
+  padding: 15px 5px;
   font-size: 14px;
   font-weight: 600;
+  width: 33.333%;
 }
 
 .submenu > li:hover {
@@ -89,6 +91,7 @@ a {
   border: none;
   font-weight: 600;
   cursor: pointer;
+  min-width: 700px;
 }
 
 ul {

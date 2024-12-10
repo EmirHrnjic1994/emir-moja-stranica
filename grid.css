@@ -23,7 +23,7 @@
   display: none;
 }
 .sidebar-right {
-  grid-area: sidebar-right;
+  display: none;
 }
 .footer {
   grid-area: footer;
@@ -41,5 +41,13 @@
     grid-area: content;
     justify-content: center;
     display: unset;
+  }
+}
+@media screen and (min-width: 768px) {
+  .sidebar-right {
+    grid-area: sidebar-right;
+    justify-content: center;
+    display: unset;
+    display: grid;
   }
 }
