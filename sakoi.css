@@ -12,6 +12,7 @@
   min-height: 1px;
   width: 25%;
   float: left;
+  padding: 1rem;
 }
 .containersakoiright {
   position: relative;
@@ -66,4 +67,14 @@
   font-size: 12px;
   margin-bottom: 5px;
   position: relative;
+}
+
+.podkategorijasaki2 label {
+  display: flex;
+  cursor: pointer;
+  gap: 0.5rem;
+}
+.itemsakoi {
+  width: auto;
+  height: 70%;
 }
